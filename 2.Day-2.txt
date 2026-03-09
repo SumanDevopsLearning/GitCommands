@@ -1,0 +1,47 @@
+
+Git Flow:
+
+Working Area ------------> Staging Aarea ------------> local Repo ----------> Remote Repo
+
+Few Linux commands:
+===========================================================
+ls -lrth ----- to check the list of files
+ls -lrtha ----- to check the hiden files as well
+pwd ------- Print working directory
+mkdir ----- make directory
+touch ----- to create file
+
+Few Git Commands:
+===========================================================
+git -v ------------ to check git version
+git status ----------- to cheeck the status, it will show untracked files, and staging Area Files
+git init -------> to initialize the git in local
+git add <file name> --------to add specific file to staging area
+git add *.txt -------> to add txt files to staging area
+git add *.sh --------> to add sh files to staging area
+git add * -----------> to add all changes to staging area
+git add . -----------> add all changes including hidden files to staging are
+git commit -m "<commit messages>" ------ to add changes to local repo
+
+git config --global user.name "<give user name>" ------ to configure git username
+git config --global user.email "<email id>" ------ to configure git username, one tile activity
+git config --global --list ------> to check the list of configured user
+
+git log -------- to check the list of commits
+git log -2 ----- to check the last 2 commits
+.git ----------- it indicates that git is initialize in that particular repository.
+git show <commit id> ---------- it will show the commited changes, author, time, file name etc.
+git show --pretty"" --name-only <commit id> --------- to see only commited files names only
+
+git branch -M main --------- to set current branch as Main branch
+git remote add <alias name ex: jio> <git repository url, get it from github>
+git remote -v ---------- to see the alias created
+git push <alias name ex:jio> main (this is branch name) --------------- to push the changes to branch
+
+Have to create the token to push the changes to Githib
+Profile --> Settings-->Developer settings --> Personal access tokens --> classic token --> geerate token.
+
+Note: already pushed file, if we make some changes it will come to working area again, then if we execute following command, it will push directly without adding to
+staging are
+
+git commit -am "commit message"
