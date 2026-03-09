@@ -1,0 +1,22 @@
+
+Day-3 of Git commands:
+
+git log --oneline -----------> to show all commit id and messages in single line
+git clean -n -------> dry run before clearing the untracked files, files which are there in working area
+git clean -f ---> to clear the untracked files, files which are there in working area
+
+git reset <file name> ------------> to bring back the file from staging are to working are
+
+in git reset 3 types are there mixed, soft, hard.
+1. git reset --mixed  <commit id> --------- to bring back the commited changes to working area
+2. git reset --soft <commit id> --------- to bring back the commited changes to Staging area
+3. git reset --hard <commit id> --------- to delete the commited changes after mentioned commit id
+
+git revert -----> it is help to revert the bad commit
+
+if file is modified --- it will revert the data
+if file is created ----> it delete it.
+
+.gitignore --------> we can create .git ignor file (vi .gitignore)
+
+if any file we don't want to push to remote, we can mentioned that file name in this .gitignore file. 
