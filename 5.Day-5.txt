@@ -1,0 +1,26 @@
+
+==============================================
+Day-5 of Git & Git Hub
+==============================================
+
+git clone <url> ----------> to clone url to local to work on
+git remote remove <alias name> --------> to remove the alias of remote repo
+
+Versioning : ex: 1.5.9
+                 Major:Minor:Patch   release
+Tag ---------> to get backup before release
+
+git tag ----> to list down the tag
+git tag <tag name> -----> to create tag
+git push <AN> <Tag Name> ----> to push the tag to remote
+git tag -d <Tag Name> ----> to delete the tag
+git push <AN> --tags -----> to push the all tags at a time
+
+git stash ----> Useful to save temporarly when we planning to switch the branch
+          -----> it is a temporay save
+
+git stash list -----> to list down the stashes
+git stash save "first stash" ------>to stash the work
+git stash apply <stash id ex: stash@{0}> -----> to bring back the saved changes to working area
+git stash drop <stash id> --------> to srop the stash
+git stash pop <stash id> ------> it is combination of Apply+drop

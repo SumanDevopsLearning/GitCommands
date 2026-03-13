@@ -1,0 +1,40 @@
+==============================================
+Day-4 of Git & Git Hub
+==============================================
+
+Few More git commands:
+
+git branch ----------> this will use for branches, create, delete, rename
+
+git branch <branch name> ---> to create branch
+git branch -m <existing branch> <New branch name> ----> to rename the branch name
+git branch -d <branch name> ----> to delete the branch
+git checkout <branch name> ---> to switch branch
+git checkout -b <branch name> --> to create and switch to the branch
+
+git checkout -b dev ====> git branch dev  ----Both are same
+			  git checkout dev
+
+Currently i am in dev branch
+git diff main -----> it will give the difference with main branch
+
+now i am in main branch
+git merge <branch name ex: dev> --------- to mearge the chages to main branch from dev
+
+Note:
+1. without merging the changes if we switch the branch, changes will get merged automatically.
+   to the switched branch. It is bad practice.
+
+2. if child branch "b1" created from the master, if i made some changes and commited in b1 branch,
+   and i don't want to mearge those changes and want to delete that branch then we have to use -D instad of -d
+   git branch -D b1
+
+Merge Conflicts:
+if two developers created two different branches and made the changes in same line and want to mearge it to main,
+then will get merge conflict.
+
+git push <alis name of repo ex:jio> --all ------> it will push the all the branches to remote
+
+git branch   -----------> to see the branches in local
+git branch -r -----------> to see the branches in remote
+git branch -a -----------> to see the branches in both remote + local

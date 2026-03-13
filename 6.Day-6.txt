@@ -1,0 +1,27 @@
+==============================================
+Day-6 of Git & Git Hub
+==============================================
+
+GIT Branching stratagy
+ --> Fast forward Merge
+----> Three way Merge strataty or ORT Merg or 
+      Recursice Merge Stratagy
+
+GIT Best Practices:
+1. don't commit your code in middle of your work,
+   commit your code once evetything is ready.
+2. Test your code before commit.
+3. Please give proper commit message.
+4. Avoid Merge conflicts.
+5. Raise a pull request yo merge the changes to main branch.
+6. Always monitor the branches, delete the unused branches after approvals.
+7. Delete stashed if not required.
+
+git cherrypick ------> to mearge some particular commit to main branch we can use cherrypick.
+
+git cherry-pick <commit id>
+
+git fetch origin main ---> to fetche the updated from master to local repo
+git merge origin/main ----> to merge the fetched changes.
+
+git pull origin maain --- pull = fetch+merge

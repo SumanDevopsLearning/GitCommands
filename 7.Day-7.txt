@@ -1,0 +1,18 @@
+==============================================
+Day-7 of Git & Git Hub
+==============================================
+
+git close -b dev <url> ----> to clone the code from dev branch
+git rebase ---> use to maintain the sequential commit history.
+
+git rebase dev ----> rebase to dev branch
+
+ssh-keygen --> to generate public and private key
+ssh-keygen -t ras ---> to generate ssh key with ras algorithm.
+---> ssh keys will store in .ssh folder under home repository.
+
+We can configure token for git hub:
+Profile--> settings ---> SSH and GPG keys --> New ssh key add it.
+
+Plane text --> Cipher text == Encryption
+Cipher texr ---> to --> plan text == Ddecryption

@@ -1,0 +1,9 @@
+==============================================
+Day-1 of Git & Git Hub
+==============================================
+
+---> Git and GitHub difference.
+---> Create Organization
+---> Assign Users to Teams
+---> Create repository to maintain code
+---> Public vs Private
